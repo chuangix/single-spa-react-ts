@@ -1,0 +1,32 @@
+{
+  "name": "single-spa-react-ts",
+  "version": "1.0.0",
+  "description": "#### Description A simple example of multiple React apps within single-spa framework",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "commitizen": "^4.2.4",
+    "create-single-spa": "^4.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.2",
+    "jshint": "^2.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:chuangix/single-spa-react-ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
